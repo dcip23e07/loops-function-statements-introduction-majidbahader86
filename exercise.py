@@ -10,7 +10,7 @@ while True:
         break
 
     if amount_from_ATM == "yes":
-        amount_to_withdraw = int(input("Enter the amount to withdraw: "))
+        amount_to_withdraw = float(input("Enter the amount to withdraw: "))
 
         if amount_to_withdraw < min_amount:
             print("Amount to withdraw is less than the minimum amount.")
